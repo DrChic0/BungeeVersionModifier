@@ -20,7 +20,7 @@ public class BungeeVersionModifier extends Plugin implements Listener {
     @Override
     public void onEnable() {
 		
-		if (!getDataFolder().exists()) {
+	if (!getDataFolder().exists()) {
             getDataFolder().mkdir();
         }
 
